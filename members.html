@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Think Digital - Members</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header and Navigation (Same as index.html) -->
+  <header>
+    <h1>Our Members</h1>
+    <p>Meet the brilliant minds behind Think Digital.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="member-list">
+      <h2>Active Members</h2>
+      <div id="members-container">
+        <p>Loading members...</p>
+      </div>
+    </section>
+
+    <section id="add-member" class="admin-only">
+      <h2>Add New Member</h2>
+      <form id="member-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <label for="role">Role:</label>
+        <input type="text" id="role" name="role" required>
+
+        <button type="submit">Add Member</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer (Same as index.html) -->
+  <footer>
+    <p>&copy; 2024 Think Digital | XYZ College</p>
+    <div class="social-media">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/backend
+  ├── /config       # Database and environment config
+  ├── /models       # MongoDB schemas
+  ├── /routes       # API routes
+  ├── /controllers  # Logic for handling requests
+  ├── server.js     # Main entry point

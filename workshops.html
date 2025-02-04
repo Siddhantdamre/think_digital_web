@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Think Digital - Workshops</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header and Navigation (Same as index.html) -->
+  <header>
+    <h1>Workshops & Resources</h1>
+    <p>Enhance your skills with our specialized workshops.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="workshops.html">Workshops</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="workshop-list">
+      <h2>Upcoming Workshops</h2>
+      <div id="workshops-container">
+        <p>Loading workshops...</p>
+      </div>
+    </section>
+
+    <section id="create-workshop" class="admin-only">
+      <h2>Create New Workshop</h2>
+      <form id="workshop-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="speaker">Speaker:</label>
+        <input type="text" id="speaker" name="speaker" required>
+
+        <label for="date">Date:</label>
+        <input type="datetime-local" id="date" name="date" required>
+
+        <button type="submit">Create Workshop</button>
+      </form>
+    </section>
+
+    <section id="learning-resources">
+      <h2>Learning Resources</h2>
+      <div id="resources-container">
+        <p>Loading resources...</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Same as index.html) -->
+  <footer>
+    <p>&copy; 2024 Think Digital | XYZ College</p>
+    <div class="social-media">
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
